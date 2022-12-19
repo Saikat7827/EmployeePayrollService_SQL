@@ -39,3 +39,9 @@ mysql> desc employee_payroll;
 | start  | date         | NO   |     | NULL    |                |
 +--------+--------------+------+-----+---------+----------------+
 4 rows in set (0.03 sec)
+
+UC3-employee payroll data in the payroll service database as part of CRUD Operation
+
+mysql> insert into employee_payroll(name,salary,start)values ('Bill',1000000.00,'2010-10-30'),('Tersia',2000000.00,'2019-11-13'),('Charlie',300000.00,'2020-05-21');
+Query OK, 3 rows affected (0.03 sec)
+Records: 3  Duplicates: 0  Warnings: 0
